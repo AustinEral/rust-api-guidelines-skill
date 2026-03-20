@@ -1,0 +1,4 @@
+interface:
+  display_name: "rust-api-guidelines"
+  short_description: "Live Rust API Guidelines review"
+  default_prompt: "Use $rust-api-guidelines to read the Rust API Guidelines."
