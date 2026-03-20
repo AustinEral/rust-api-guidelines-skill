@@ -1,0 +1,9 @@
+{
+  "name": "rust-api-guidelines",
+  "description": "Live Rust API Guidelines review — fetches and applies the official guidelines from rust-lang.github.io",
+  "version": "1.0.0",
+  "author": {
+    "name": "AustinEral"
+  },
+  "repository": "https://github.com/AustinEral/rust-api-guidelines-skill"
+}

@@ -1,5 +1,4 @@
 ---
-name: rust-api-guidelines
 description: Use when the agent must read, apply, or review against the official Rust API Guidelines from rust-lang.github.io and must fetch the live pages first instead of relying on memory or local copies. Trigger this skill for Rust API design reviews, crate audits, naming checks, documentation checks, macro guidance, predictability and flexibility reviews, type-safety and dependability reviews, debuggability and future-proofing checks, or any request to consult the Rust API Guidelines online.
 ---
 
