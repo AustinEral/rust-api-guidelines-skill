@@ -1,6 +1,6 @@
 ---
 name: rust-api-guidelines
-description: Use when Codex must read, apply, or review against the official Rust API Guidelines from rust-lang.github.io and must fetch the live pages first instead of relying on memory or local copies. Trigger this skill for Rust API design reviews, crate audits, naming checks, documentation checks, macro guidance, predictability and flexibility reviews, type-safety and dependability reviews, debuggability and future-proofing checks, or any request to consult the Rust API Guidelines online.
+description: Use when the agent must read, apply, or review against the official Rust API Guidelines from rust-lang.github.io and must fetch the live pages first instead of relying on memory or local copies. Trigger this skill for Rust API design reviews, crate audits, naming checks, documentation checks, macro guidance, predictability and flexibility reviews, type-safety and dependability reviews, debuggability and future-proofing checks, or any request to consult the Rust API Guidelines online.
 ---
 
 # Rust API Guidelines
@@ -14,7 +14,7 @@ Use only the pages opened in the current turn as the source of truth for the tas
 
 Before any analysis, summary, code review, recommendation, or other action:
 
-1. Open each URL below with the web tool, one by one, in the exact order shown.
+1. Open each URL below with the web fetch tool, one by one, in the exact order shown.
 2. Treat any failure to open a page as a hard stop.
 3. If any page cannot be opened, stop immediately, report the failing URL, and do not continue.
 4. Do not use memory, local files, cached copies, or paraphrases remembered from earlier turns as a substitute.
